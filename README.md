@@ -27,3 +27,13 @@ npm install eslint eslint-plugin-react eslint-config-react-app --save-dev
 
 # Reinstalar todas as dependências
 npm install
+------------------------------------------------------
+
+Instalação
+Para instalar o ws, você pode usar o seguinte comando:
+
+npm install ws
+
+Para instalar o socket.io, utilize:
+
+npm install socket.io

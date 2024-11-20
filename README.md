@@ -1,14 +1,20 @@
-# aaaaaaaaaaaaa
+# Dependencias
 
-# Remover node_modules e package-lock.json
-rm -rf node_modules package-lock.json
+# BackEnd
+- npm i -g @nestjs/cli
+- npm install --save @nestjs/typeorm typeorm mysql2
+- npm i --save class-validator class-transformer
+- docker compose up -d
 
-# Instalar as dependências do ESLint
-npm install eslint eslint-plugin-react eslint-config-react-app --save-dev
+# FrontEnd
+- npx create-react-app trello-frontend (Iniciar no frontend)
+- npm install axios
+- npm install cross-env --save-dev
 
-# Reinstalar todas as dependências
-npm install
+# Importante
+- Fazer o npm run start:dev no backend e deixe ligado
+- Faça cd trello-frontend no bash
+- Fazer npm start no frontend
 
-npm install react-modal
+//// Modificado "start": "react-scripts start", por "start": "cross-env PORT=3001 react-scripts start", no package.json
 
-npm install react-beautiful-dnd

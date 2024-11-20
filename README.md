@@ -18,3 +18,12 @@
 
 //// Modificado "start": "react-scripts start", por "start": "cross-env PORT=3001 react-scripts start", no package.json
 
+
+# Remover node_modules e package-lock.json
+rm -rf node_modules package-lock.json
+
+# Instalar as dependências do ESLint
+npm install eslint eslint-plugin-react eslint-config-react-app --save-dev
+
+# Reinstalar todas as dependências
+npm install
